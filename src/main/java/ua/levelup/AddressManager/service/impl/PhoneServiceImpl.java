@@ -12,14 +12,14 @@ import java.util.List;
  * Created by java on 15.05.2016.
  */
 @Service
-public class PhoneServiceImpl implements PhoneService{
+public class PhoneServiceImpl implements PhoneService {
 
     @Autowired
     private PhoneRepository phoneRepository;
 
     @Override
     public void createPhone(Phone phone) {
-        if(phone == null) {
+        if (phone == null) {
             throw new IllegalArgumentException("phone cannot be null");
         }
         phoneRepository.createPhone(phone);
@@ -29,6 +29,16 @@ public class PhoneServiceImpl implements PhoneService{
     public Phone findById(long id_phone) {
         return phoneRepository.findById(id_phone);
     }
+
+//    @Override
+//    public Phone findByNumber(String number) {
+//        return phoneRepository.findByNumber(number);
+//    }
+//
+//    @Override
+//    public List<Phone> findByNumberPartial(String number) {
+//        return phoneRepository.findByNumberPartial(number);
+//    }
 
     @Override
     public List<Phone> getAllPhone() {

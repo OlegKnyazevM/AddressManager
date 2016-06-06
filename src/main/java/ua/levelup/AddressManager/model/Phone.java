@@ -30,11 +30,11 @@ public class Phone implements Serializable {
     }
 
     @Column(name = "namber")
-    public String getNamber() {
+    public String getNumber() {
         return namber;
     }
 
-    public void setNamber(String namber) {
+    public void setNumber(String namber) {
         this.namber = namber;
     }
 

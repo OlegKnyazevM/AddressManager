@@ -17,7 +17,6 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.sql.DataSource;
 import java.util.Properties;
-
 /**
  * Created by java on 11.05.2016.
  */

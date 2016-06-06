@@ -13,17 +13,13 @@ import java.util.List;
  */
 
 @Service
-//@Transactional
-public class AddressServiceImpl implements AddressService{
+public class AddressServiceImpl implements AddressService {
 
     @Autowired
     private AddressRepository addressRepository;
 
     @Override
     public void createAddress(Address address) {
-//        if(address == null) {
-//            throw new IllegalArgumentException("address cannot be null");
-//        }
         addressRepository.createAddress(address);
     }
 
@@ -36,6 +32,11 @@ public class AddressServiceImpl implements AddressService{
     public Address findByContent(String content) {
         return addressRepository.findByContent(content);
     }
+
+//    @Override
+//    public List<Address> findByContentPartial(String content) {
+//        return addressRepository.findByContentPartial(content);
+//    }
 
     @Override
     public List<Address> getAllAddress() {

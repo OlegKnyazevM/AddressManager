@@ -78,7 +78,7 @@
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-servlet:3.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-servlet:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-el:3.0.3" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cassandra:cassandra-all:0.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:r08" level="project" />
     <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.1" level="project" />

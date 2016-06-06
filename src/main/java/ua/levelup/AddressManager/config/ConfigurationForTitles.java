@@ -7,8 +7,13 @@ import org.springframework.web.servlet.view.tiles3.TilesView;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 /**
- * Created by java on 25.05.2016.
+ * Class {@link ConfigurationForTitles} tiles configuration
+ *
+ * @author Knyazev Oleg
+ * @version 1.0
+ * @since 20.10.15
  */
+
 @Configuration
 public class ConfigurationForTitles {
 

@@ -16,7 +16,7 @@
         <mysql.version>5.1.6</mysql.version>
         <javax.servlet>3.0.1</javax.servlet>
         <jackson.version>2.5.1</jackson.version>
-        <org.log4j-version>1.2.16</org.log4j-version>
+        <org.log4j-version>1.2.17</org.log4j-version>
         <apache-tiles.version>3.0.3</apache-tiles.version>
     </properties>
 
@@ -240,25 +240,6 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>${org.log4j-version}</version>
-            <type>jar</type>
-            <exclusions>
-                <exclusion>
-                    <groupId>javax.mail</groupId>
-                    <artifactId>mail</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>javax.jms</groupId>
-                    <artifactId>jms</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.sun.jdmk</groupId>
-                    <artifactId>jmxtools</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.sun.jmx</groupId>
-                    <artifactId>jmxri</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
 
